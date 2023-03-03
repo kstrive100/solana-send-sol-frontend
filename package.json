@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "overrides": {
+    "react": "18.0.0",
+    "@types/react": "^17.0.43"
+  },
   "dependencies": {
     "@solana/wallet-adapter-base": "^0.9.5",
     "@solana/wallet-adapter-react": "^0.15.4",
